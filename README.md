@@ -17,11 +17,11 @@ If you find this work useful in your research, please consider citing our paper:
 
 ```bibtex
 @article{Fahmy2024,
-  author    = {Tareq A. Fahmy and Omar M. Shehta and Shady A. Maged},
+  author    = {Tareq A. Fahmy , Omar M. Shehta and Shady A. Maged},
   title     = {Trajectory-Aware Deep Reinforcement Learning Navigation Using Multichannel Cost Maps},
   journal   = {MDPI Robotics},
   year      = {2024},
-  volume    = {...},
-  pages     = {...},
-  doi       = {10.3390/robotics-XXXXXXX}
+  volume    = {...}, will be avilable soon
+  pages     = {29}, will be avilable soon
+  doi       = {10.3390/robotics-XXXXXXX} will be avilable soon
 }
