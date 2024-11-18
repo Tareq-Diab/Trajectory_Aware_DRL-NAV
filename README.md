@@ -21,7 +21,7 @@ If you find this work useful in your research, please consider citing our paper:
   title     = {Trajectory-Aware Deep Reinforcement Learning Navigation Using Multichannel Cost Maps},
   journal   = {MDPI Robotics},
   year      = {2024},
-  volume    = {...}, will be avilable soon
-  pages     = {29}, will be avilable soon
-  doi       = {10.3390/robotics-XXXXXXX} will be avilable soon
+  volume    = {13}, 
+  pages     = {29}, 
+  doi       = {https://doi.org/10.3390/robotics13110166}
 }
