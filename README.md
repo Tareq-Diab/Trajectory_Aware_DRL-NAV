@@ -4,7 +4,7 @@ Welcome to the official repository for **Trajectory-Aware Deep Reinforcement Lea
 
 ## About the Repository
 This repository will include:
-- **Codebase**: Our deep reinforcement learning framework.
+- **Codebase**: Our deep reinforcement learning models.
 - **Multichannel Cost Map Implementation**: Detailed code for creating and managing cost maps.
 - **Trajectory Prediction Module**: Tools for predicting dynamic obstacle movements.
 - **Simulation Environment Setup**: Scripts to replicate our training and testing scenarios.
