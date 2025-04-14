@@ -2,6 +2,9 @@
 
 Welcome to the official repository for **Trajectory-Aware Deep Reinforcement Learning Navigation Using Multichannel Cost Maps**, as featured in our paper published in the *MDPI Robotics Journal*. This project explores an innovative approach to autonomous navigation in dynamic environments by leveraging multichannel cost maps and trajectory prediction techniques.
 
+### ⚠️ Note
+The publish date has been moved to May.
+
 ## About the Repository
 This repository will include:
 - **Codebase**: Our deep reinforcement learning models.
@@ -10,7 +13,8 @@ This repository will include:
 - **Simulation Environment Setup**: Scripts to replicate our training and testing scenarios.
 
 ## Data Availability
-The data supporting this work will be made publicly available by **March 2025**. Stay tuned for updates!
+The data supporting this work will be made publicly available by **MAY 2025**. Stay tuned for updates!
+
 
 ## Citation
 If you find this work useful in your research, please consider citing our paper:
