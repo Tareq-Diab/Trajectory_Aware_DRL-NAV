@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="customCostMap" type="dynamicObstacalesTransformationPublisherNode.py" name="dynamicObstacalesTransformationPublisherNode" >
+    </node>
+</launch>
