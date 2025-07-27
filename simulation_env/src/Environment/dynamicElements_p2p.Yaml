@@ -1,0 +1,132 @@
+# unit_cylinder:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [0.83328 ,3.25046]
+# unit_cylinder_0:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [0.866452 ,-3.12053]
+# unit_cylinder_1:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-2.55519 ,4.49272]
+# unit_cylinder_2:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-0.500764 ,-6.55416]
+# unit_cylinder_3:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-0.454223 ,6.52018]
+# unit_cylinder_4:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-4.59326 ,-5.63955]
+# unit_cylinder_5:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-4.65553 ,5.53963]
+# unit_cylinder_6:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-1.48227 ,-2.48036]
+# unit_cylinder_7:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-1.49116, 2.61751]
+# unit_cylinder_8:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [7.58377 ,-6.40919]
+# unit_cylinder_9:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [6.47446 ,-8.5506]
+# unit_cylinder_10:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-6.54648 ,7.5185]
+# unit_cylinder_11:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-8.58507 ,5.55093]
+# unit_cylinder_12:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-2.60903 ,-4.51805]
+# unit_cylinder_13:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [7.99044 ,8.05049]
+# unit_cylinder_14:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-3.4804 ,-8.52191]
+# unit_cylinder_15:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [1.48702 ,-8.48389]
+# unit_cylinder_16:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [7.5644 ,-1.57163]
+# unit_cylinder_17:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [7.59607 ,2.50619]
+# unit_cylinder_18:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-6.41529 ,2.52337]
+# unit_cylinder_19:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [-6.48458 ,-2.49862]
+# unit_cylinder_20:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [3.60553 ,-1.52404]
+# unit_cylinder_21:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [3.55777 ,1.54505]
+# unit_cylinder_22:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [5.76583 ,0.067579]
+# unit_cylinder_23:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [4.53958 ,-5.48686]
+# unit_cylinder_24:
+#   randomisation :
+#     method : raduis
+#     value : 0.3
+#   center : [4.4948 ,4.52253]
+
+

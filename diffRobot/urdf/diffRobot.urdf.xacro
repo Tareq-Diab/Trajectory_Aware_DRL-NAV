@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="diffRobot">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.000103872023518377 3.58628358236025E-05 0.0515454710632992"
+        rpy="0 0 0" />
+      <mass
+        value="1.14004067009862" />
+      <inertia
+        ixx="0.00941706968445277"
+        ixy="1.12232392243467E-06"
+        ixz="-4.93915969703524E-21"
+        iyy="0.0084577122951622"
+        iyz="5.95773147775248E-19"
+        izz="0.0178232711919201" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Rwheel">
+    <inertial>
+      <origin
+        xyz="-2.65412691824451E-16 1.15393805621977E-14 0.0125000000000003"
+        rpy="0 0 0" />
+      <mass
+        value="0.618834179086721" />
+      <inertia
+        ixx="0.000274104490862329"
+        ixy="8.71563021406785E-17"
+        ixz="-6.19148140798845E-19"
+        iyy="0.000274104490862329"
+        iyz="5.78124763710376E-17"
+        izz="0.000518442401620523" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/Rwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/Rwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Rjoint"
+    type="continuous">
+    <origin
+      xyz="-0.1275 0 -0.0239999999999999"
+      rpy="1.5707963267949 0.287929555395445 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="Rwheel" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="Lwheel">
+    <inertial>
+      <origin
+        xyz="-9.64506252643105E-16 -1.06754882711613E-14 -0.0125000000000001"
+        rpy="0 0 0" />
+      <mass
+        value="0.61883417908672" />
+      <inertia
+        ixx="0.000274104490862329"
+        ixy="-8.71495258771005E-17"
+        ixz="7.0203286930098E-19"
+        iyy="0.000274104490862329"
+        iyz="5.80282536581578E-17"
+        izz="0.000518442401620523" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/Lwheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.776470588235294 0.756862745098039 0.737254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/Lwheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Ljoint"
+    type="continuous">
+    <origin
+      xyz="0.127499999999999 0 -0.024"
+      rpy="1.5707963267949 0.434085925858152 -1.57079632679489" />
+    <parent
+      link="base_link" />
+    <child
+      link="Lwheel" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="lidar">
+    <inertial>
+      <origin
+        xyz="-9.17768374699226E-05 -0.00676832715317712 -0.0219378521073858"
+        rpy="0 0 0" />
+      <mass
+        value="1.33041048124832" />
+      <inertia
+        ixx="0.000960497023041248"
+        ixy="8.00271259590308E-07"
+        ixz="-3.0960362664798E-06"
+        iyy="0.000614736954229147"
+        iyz="-0.000158189979278382"
+        izz="0.00109812375363565" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/lidar.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://diffRobot/meshes/lidar.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidarJoint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.1592"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

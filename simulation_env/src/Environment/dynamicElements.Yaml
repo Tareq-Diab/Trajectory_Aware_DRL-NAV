@@ -1,0 +1,21 @@
+unit_box:
+  randomisation :
+    method : axis
+    type : y
+    value : 1
+  center : [-2,0]
+unit_box_0:
+  randomisation :
+    method : axis
+    type : y
+    value : 1
+  center : [-5,0]
+unit_box_1:
+  randomisation :
+    method : axis
+    type : y
+    value : 1
+  center : [-7,0]
+    
+
+
